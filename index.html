@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HarBud - Firma Ogólnobudowlana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #FFD700;
+    }
+    header {
+      background-color: #1c1c1c;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    h1 {
+      margin: 10px 0 0;
+      font-size: 2em;
+    }
+    section {
+      padding: 20px;
+    }
+    .kontakt form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+      gap: 10px;
+    }
+    .kontakt input, .kontakt textarea {
+      padding: 10px;
+      background-color: #1c1c1c;
+      border: 1px solid #FFD700;
+      color: #FFD700;
+    }
+    .kontakt button {
+      padding: 10px;
+      background-color: #FFD700;
+      color: #121212;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    .opinie {
+      background-color: #1c1c1c;
+      padding: 20px;
+    }
+    .opinia {
+      margin-bottom: 15px;
+      border-left: 4px solid #FFD700;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo HarBud">
+    <h1>HarBud</h1>
+    <p>Malowanie, wykończenia wnętrz, firma ogólnobudowlana - Hartowiec</p>
+  </header>
+
+  <section class="kontakt">
+    <h2>Skontaktuj się z nami</h2>
+    <form>
+      <input type="text" placeholder="Twoje imię" required>
+      <input type="email" placeholder="Twój e-mail" required>
+      <input type="tel" placeholder="Twój telefon">
+      <textarea rows="4" placeholder="Twoja wiadomość"></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <section class="opinie">
+    <h2>Opinie klientów</h2>
+    <div class="opinia">
+      <p>"Super robota, pełen profesjonalizm!" – Anna K.</p>
+    </div>
+    <div class="opinia">
+      <p>"Szybko, solidnie i w dobrej cenie." – Marek B.</p>
+    </div>
+    <div class="opinia">
+      <p>"Polecam z czystym sumieniem!" – Tomasz R.</p>
+    </div>
+  </section>
+</body>
+</html>
