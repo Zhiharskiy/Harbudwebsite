@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HarBud - Usługi Budowlane</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #2e2e2e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2em;
+      color: #ff9900;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+      border-bottom: 2px solid #ff9900;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .services li::before {
+      content: "✔";
+      color: #ff9900;
+      position: absolute;
+      left: 0;
+    }
+    .contact {
+      background: #eee;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+    footer {
+      background: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+      section { padding: 20px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_harbud.png" alt="Logo HarBud" />
+    <h1>HarBud</h1>
+    <p>Solidność i precyzja w każdym detalu</p>
+  </header>
+
+  <section class="about">
+    <h2>O nas</h2>
+    <p>Jesteśmy firmą ogólnobudowlaną z Hartowca. Oferujemy profesjonalne malowanie, wykończenia wnętrz i kompleksowe usługi remontowe. Stawiamy na jakość, terminowość i zadowolenie klienta.</p>
+  </section>
+
+  <section class="services">
+    <h2>Usługi</h2>
+    <ul>
+      <li>Malowanie ścian i sufitów</li>
+      <li>Wykończenia wnętrz</li>
+      <li>Remonty mieszkań i domów</li>
+      <li>Montaż paneli i podłóg</li>
+      <li>Szpachlowanie, gładzie</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Telefon:</strong> <a href="tel:+48228228883">228 228 883</a></p>
+    <p><strong>Email:</strong> <a href="mailto:zhiharskiy1488@gmail.com">zhiharskiy1488@gmail.com</a></p>
+    <p><strong>Lokalizacja:</strong> Hartowiec</p>
+  </section>
+
+  <footer>
+    &copy; 2025 HarBud. Wszystkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>
